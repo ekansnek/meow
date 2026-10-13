@@ -20,8 +20,8 @@
     "commit": "commit",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "db-server:file": "pglite-server -m 100 --db=local.db --run 'npm run db:migrate'",
-    "db-server:memory": "pglite-server -m 100 --run 'npm run db:migrate'",
+    "db-server:file": "pglite-server -m 100 --db=local.db --run \"cmd.exe /d /s /c npm.cmd run db:migrate\"",
+    "db-server:memory": "pglite-server -m 100 --run \"cmd.exe /d /s /c npm.cmd run db:migrate\"",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "dotenv -c -- drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
@@ -44,6 +44,7 @@
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-hook-form": "7.85.0",
+    "tamagui": "^2.7.7",
     "translation-resilience": "0.3.0",
     "zod": "4.4.3"
   },
