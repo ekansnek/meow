@@ -37,6 +37,7 @@
     "@logtape/logtape": "2.3.1",
     "@sentry/nextjs": "10.70.0",
     "@t3-oss/env-nextjs": "0.13.11",
+    "@tamagui/config-default": "2.7.7",
     "drizzle-orm": "0.45.2",
     "next": "16.3.1",
     "next-intl": "4.13.4",

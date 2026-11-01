@@ -1,3 +1,193 @@
 @layer theme, base, clerk, components, utilities; /* Ensure Clerk is compatible with Tailwind CSS v4 */
 
 @import 'tailwindcss';
+
+@layer components {
+  @media (min-width: 1024px) {
+    .gallery-grid {
+      grid-template-areas:
+        'a b c d e f g h i j k l'
+        'm n o p anniversary anniversary anniversary q r s t u'
+        'v w x y anniversary anniversary anniversary z aa ab ac ad'
+        'action action action action action accent ae ae ae ae ae ae';
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      grid-template-rows: repeat(4, 100px);
+    }
+
+    .gallery-grid > .tile-a {
+      grid-area: a;
+    }
+    .gallery-grid > .tile-b {
+      grid-area: b;
+    }
+    .gallery-grid > .tile-c {
+      grid-area: c;
+    }
+    .gallery-grid > .tile-d {
+      grid-area: d;
+    }
+    .gallery-grid > .tile-e {
+      grid-area: e;
+    }
+    .gallery-grid > .tile-f {
+      grid-area: f;
+    }
+    .gallery-grid > .tile-g {
+      grid-area: g;
+    }
+    .gallery-grid > .tile-h {
+      grid-area: h;
+    }
+    .gallery-grid > .tile-i {
+      grid-area: i;
+    }
+    .gallery-grid > .tile-j {
+      grid-area: j;
+    }
+    .gallery-grid > .tile-k {
+      grid-area: k;
+    }
+    .gallery-grid > .tile-l {
+      grid-area: l;
+    }
+    .gallery-grid > .tile-m {
+      grid-area: m;
+    }
+    .gallery-grid > .tile-n {
+      grid-area: n;
+    }
+    .gallery-grid > .tile-o {
+      grid-area: o;
+    }
+    .gallery-grid > .tile-p {
+      grid-area: p;
+    }
+    .gallery-grid > .tile-q {
+      grid-area: q;
+    }
+    .gallery-grid > .tile-r {
+      grid-area: r;
+    }
+    .gallery-grid > .tile-s {
+      grid-area: s;
+    }
+    .gallery-grid > .tile-t {
+      grid-area: t;
+    }
+    .gallery-grid > .tile-u {
+      grid-area: u;
+    }
+    .gallery-grid > .tile-v {
+      grid-area: v;
+    }
+    .gallery-grid > .tile-w {
+      grid-area: w;
+    }
+    .gallery-grid > .tile-x {
+      grid-area: x;
+    }
+    .gallery-grid > .tile-y {
+      grid-area: y;
+    }
+    .gallery-grid > .tile-z {
+      grid-area: z;
+    }
+    .gallery-grid > .tile-aa {
+      grid-area: aa;
+    }
+    .gallery-grid > .tile-ab {
+      grid-area: ab;
+    }
+    .gallery-grid > .tile-ac {
+      grid-area: ac;
+    }
+    .gallery-grid > .tile-ad {
+      grid-area: ad;
+    }
+    .gallery-grid > .tile-ae {
+      grid-area: ae;
+    }
+    .gallery-grid > .anniversary-card {
+      grid-area: anniversary;
+    }
+    .gallery-grid > .action-card {
+      grid-area: action;
+    }
+    .gallery-grid > .accent-card {
+      grid-area: accent;
+    }
+  }
+
+  .tile {
+    min-height: 100%;
+    background-color: #3b4141;
+    background-image:
+      linear-gradient(145deg, rgb(255 255 255 / 20%), transparent 42%),
+      linear-gradient(35deg, rgb(0 0 0 / 35%), transparent 60%);
+  }
+
+  .tile-a,
+  .tile-m,
+  .tile-y {
+    background-color: #8d978b;
+  }
+
+  .tile-b,
+  .tile-q,
+  .tile-ad {
+    background-color: #234a74;
+  }
+
+  .tile-c,
+  .tile-n,
+  .tile-x {
+    background-color: #c3b19d;
+  }
+
+  .tile-d,
+  .tile-r,
+  .tile-aa {
+    background-color: #705b4d;
+  }
+
+  .tile-e,
+  .tile-t {
+    background-color: #d3b0a1;
+  }
+
+  .tile-f,
+  .tile-u {
+    background-color: #d2d7d0;
+  }
+
+  .tile-g,
+  .tile-v,
+  .tile-ae {
+    background-color: #222b30;
+  }
+
+  .tile-h,
+  .tile-w {
+    background-color: #b27854;
+  }
+
+  .tile-i,
+  .tile-z {
+    background-color: #535b4f;
+  }
+
+  .tile-j,
+  .tile-ab {
+    background-color: #bc8e85;
+  }
+
+  .tile-k,
+  .tile-s {
+    background-color: #c5c6c0;
+  }
+
+  .tile-l,
+  .tile-ac {
+    background-color: #313e47;
+  }
+}

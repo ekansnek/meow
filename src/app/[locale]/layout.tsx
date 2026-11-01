@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { DemoBadge } from '@/components/DemoBadge';
+import { TamaguiProvider } from '@/components/TamaguiProvider';
 import { routing } from '@/libs/I18nRouting';
 import '@/styles/global.css';
 
@@ -56,9 +56,7 @@ export default async function RootLayout(props: {
     <html lang={locale}>
       <body>
         <NextIntlClientProvider>
-          {props.children}
-
-          <DemoBadge />
+          <TamaguiProvider>{props.children}</TamaguiProvider>
         </NextIntlClientProvider>
       </body>
     </html>
