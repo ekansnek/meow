@@ -116,9 +116,201 @@
     .gallery-grid > .accent-card {
       grid-area: accent;
     }
+
+    .gallery-grid > [data-tile~='tile-a'] {
+      grid-area: a;
+    }
+    .gallery-grid > [data-tile~='tile-b'] {
+      grid-area: b;
+    }
+    .gallery-grid > [data-tile~='tile-c'] {
+      grid-area: c;
+    }
+    .gallery-grid > [data-tile~='tile-d'] {
+      grid-area: d;
+    }
+    .gallery-grid > [data-tile~='tile-e'] {
+      grid-area: e;
+    }
+    .gallery-grid > [data-tile~='tile-f'] {
+      grid-area: f;
+    }
+    .gallery-grid > [data-tile~='tile-g'] {
+      grid-area: g;
+    }
+    .gallery-grid > [data-tile~='tile-h'] {
+      grid-area: h;
+    }
+    .gallery-grid > [data-tile~='tile-i'] {
+      grid-area: i;
+    }
+    .gallery-grid > [data-tile~='tile-j'] {
+      grid-area: j;
+    }
+    .gallery-grid > [data-tile~='tile-k'] {
+      grid-area: k;
+    }
+    .gallery-grid > [data-tile~='tile-l'] {
+      grid-area: l;
+    }
+    .gallery-grid > [data-tile~='tile-m'] {
+      grid-area: m;
+    }
+    .gallery-grid > [data-tile~='tile-n'] {
+      grid-area: n;
+    }
+    .gallery-grid > [data-tile~='tile-o'] {
+      grid-area: o;
+    }
+    .gallery-grid > [data-tile~='tile-p'] {
+      grid-area: p;
+    }
+    .gallery-grid > [data-tile~='tile-q'] {
+      grid-area: q;
+    }
+    .gallery-grid > [data-tile~='tile-r'] {
+      grid-area: r;
+    }
+    .gallery-grid > [data-tile~='tile-s'] {
+      grid-area: s;
+    }
+    .gallery-grid > [data-tile~='tile-t'] {
+      grid-area: t;
+    }
+    .gallery-grid > [data-tile~='tile-u'] {
+      grid-area: u;
+    }
+    .gallery-grid > [data-tile~='tile-v'] {
+      grid-area: v;
+    }
+    .gallery-grid > [data-tile~='tile-w'] {
+      grid-area: w;
+    }
+    .gallery-grid > [data-tile~='tile-x'] {
+      grid-area: x;
+    }
+    .gallery-grid > [data-tile~='tile-y'] {
+      grid-area: y;
+    }
+    .gallery-grid > [data-tile~='tile-z'] {
+      grid-area: z;
+    }
+    .gallery-grid > [data-tile~='tile-aa'] {
+      grid-area: aa;
+    }
+    .gallery-grid > [data-tile~='tile-ab'] {
+      grid-area: ab;
+    }
+    .gallery-grid > [data-tile~='tile-ac'] {
+      grid-area: ac;
+    }
+    .gallery-grid > [data-tile~='tile-ad'] {
+      grid-area: ad;
+    }
+    .gallery-grid > [data-tile~='tile-ae'] {
+      grid-area: ae;
+    }
+    .gallery-grid > button:nth-child(1) {
+      grid-area: a;
+    }
+    .gallery-grid > button:nth-child(2) {
+      grid-area: b;
+    }
+    .gallery-grid > button:nth-child(3) {
+      grid-area: c;
+    }
+    .gallery-grid > button:nth-child(4) {
+      grid-area: d;
+    }
+    .gallery-grid > button:nth-child(5) {
+      grid-area: e;
+    }
+    .gallery-grid > button:nth-child(6) {
+      grid-area: f;
+    }
+    .gallery-grid > button:nth-child(7) {
+      grid-area: g;
+    }
+    .gallery-grid > button:nth-child(8) {
+      grid-area: h;
+    }
+    .gallery-grid > button:nth-child(9) {
+      grid-area: i;
+    }
+    .gallery-grid > button:nth-child(10) {
+      grid-area: j;
+    }
+    .gallery-grid > button:nth-child(11) {
+      grid-area: k;
+    }
+    .gallery-grid > button:nth-child(12) {
+      grid-area: l;
+    }
+    .gallery-grid > button:nth-child(13) {
+      grid-area: m;
+    }
+    .gallery-grid > button:nth-child(14) {
+      grid-area: n;
+    }
+    .gallery-grid > button:nth-child(15) {
+      grid-area: o;
+    }
+    .gallery-grid > button:nth-child(16) {
+      grid-area: p;
+    }
+    .gallery-grid > button:nth-child(17) {
+      grid-area: q;
+    }
+    .gallery-grid > button:nth-child(18) {
+      grid-area: r;
+    }
+    .gallery-grid > button:nth-child(19) {
+      grid-area: s;
+    }
+    .gallery-grid > button:nth-child(21) {
+      grid-area: t;
+    }
+    .gallery-grid > button:nth-child(22) {
+      grid-area: u;
+    }
+    .gallery-grid > button:nth-child(23) {
+      grid-area: v;
+    }
+    .gallery-grid > button:nth-child(24) {
+      grid-area: w;
+    }
+    .gallery-grid > button:nth-child(25) {
+      grid-area: x;
+    }
+    .gallery-grid > button:nth-child(26) {
+      grid-area: y;
+    }
+    .gallery-grid > button:nth-child(27) {
+      grid-area: z;
+    }
+    .gallery-grid > button:nth-child(28) {
+      grid-area: aa;
+    }
+    .gallery-grid > button:nth-child(29) {
+      grid-area: ab;
+    }
+    .gallery-grid > button:nth-child(30) {
+      grid-area: ac;
+    }
+    .gallery-grid > button:nth-child(33) {
+      grid-area: ad;
+    }
+    .gallery-grid > button:nth-child(34) {
+      grid-area: ae;
+    }
   }
 
-  .tile {
+  [data-tile] {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
     min-height: 100%;
     background-color: #3b4141;
     background-image:
